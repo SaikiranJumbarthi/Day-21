@@ -1,0 +1,64 @@
+Body{
+    background-color: whitesmoke;
+}
+Header{
+    background-color: blue;
+}
+.Shopping{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px;
+    justify-content: space-between;
+}
+.Row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Column{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Daily{
+    display: flex;
+    flex-direction: row;
+}
+.Row > img{
+    background-color: blueviolet;
+  width: 100px;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px; 
+}
+.Column > img{
+    background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px; 
+}
+.Daily > img{
+    background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px; 
+}
+.Help{
+    align-items: center;
+    text-decoration: underline;
+    text-align: center;
+}
